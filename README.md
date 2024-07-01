@@ -15,7 +15,7 @@ With the proliferation of online learning platforms offering a vast array of cou
 
 A course recommendation system is crucial for helping users find better and more personalized course options. This project explores multiple approaches to building such a system, each with unique assumptions and methodologies.
 
-### Objectives:
+#### Objectives:
 
 - **Find better courses**: Enhance the course discovery process.
 - **Personalized recommendations**: Tailor recommendations to individual interests.
