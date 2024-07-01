@@ -1,22 +1,22 @@
 # Personalized Online Course Recommender System with Machine Learning
 
-## Overview
-
-This project aims to develop a personalized online course recommender system using various machine learning techniques. The system is designed to recommend the most suitable courses to users based on their interests, their friends' interests, and the courses they are currently enrolled in.
+## Problem Statement
+With the proliferation of online learning platforms offering a vast array of courses, learners often face the challenge of selecting courses that align with their interests, goals, and skill levels. The sheer volume and diversity of available courses can overwhelm users, leading to suboptimal course choices or decision paralysis. This project aims to develop a personalized online course recommender system that addresses these challenges. By leveraging user preferences, historical behavior data, and course characteristics, the system will intelligently recommend courses tailored to each user's unique needs. The goal is to enhance user experience, increase course engagement, and facilitate continuous learning by providing relevant and personalized course recommendations.
 
 ## Table of Contents
-1. [Introduction and Background](#introduction-and-background)
+1. [Introduction](#introduction)
 2. [Exploratory Data Analysis](#exploratory-data-analysis)
 3. [Content-based Recommender System](#content-based-recommender-system)
 4. [Collaborative-filtering Recommender System](#collaborative-filtering-recommender-system)
 5. [Conclusions](#conclusions)
 6. [Appendix](#appendix)
 
-## Introduction and Background
+## Introduction
 
 A course recommendation system is crucial for helping users find better and more personalized course options. This project explores multiple approaches to building such a system, each with unique assumptions and methodologies.
 
 ### Objectives:
+
 - **Find better courses**: Enhance the course discovery process.
 - **Personalized recommendations**: Tailor recommendations to individual interests.
 - **Multiple approaches**: Compare various recommendation algorithms.
@@ -25,18 +25,30 @@ A course recommendation system is crucial for helping users find better and more
 
 This section involves analyzing the dataset to understand the distribution and popularity of courses. Key visualizations include:
 
-- **Course counts per genre**
-- **Course enrollment distribution**
-- **Top 20 most popular courses**
-- **Word cloud of course titles**
+##### Course Counts Per Genre
 
-![Course Enrollment Distribution](screenshot1.png)
+![Course Counts Per Genre](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_1.png)
 
-## Content-based Recommender System
+##### Course Enrollment Distribution
+
+![Course Enrollment Distribution](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_2.png)
+
+
+##### Top 20 Most Popular Courses
+
+![Top 20 Most Popular Courses](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_3.png)
+
+
+##### Word Cloud of Course Titles
+
+![Word Cloud of Course Titles](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_4.png)
+
+## Content-Based Recommender System
 
 This approach involves recommending courses based on user profiles and course content.
 
 ### Unsupervised Learning
+
 A flowchart of the content-based recommender system using user profiles and course genres is illustrated below:
 
 ![Content-based Recommender Flowchart](flowchart1.png)
