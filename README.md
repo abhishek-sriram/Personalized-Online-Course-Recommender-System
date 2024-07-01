@@ -1,4 +1,4 @@
-# Personalized Online Course Recommender System with Machine Learning
+# Personalized Online Course Recommender System 
 
 ## Problem Statement
 With the proliferation of online learning platforms offering a vast array of courses, learners often face the challenge of selecting courses that align with their interests, goals, and skill levels. The sheer volume and diversity of available courses can overwhelm users, leading to suboptimal course choices or decision paralysis. This project aims to develop a personalized online course recommender system that addresses these challenges. By leveraging user preferences, historical behavior data, and course characteristics, the system will intelligently recommend courses tailored to each user's unique needs. The goal is to enhance user experience, increase course engagement, and facilitate continuous learning by providing relevant and personalized course recommendations.
