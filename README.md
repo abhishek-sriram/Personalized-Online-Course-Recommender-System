@@ -51,7 +51,7 @@ This approach involves recommending courses based on user profiles and course co
 
 A flowchart of the content-based recommender system using user profiles and course genres is illustrated below:
 
-![Content-based Recommender Flowchart](flowchart1.png)
+![Content-based recommender system using user profiles and course genres flowchart](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_5.png)
 
 **Process:**
 1. **User profile vector**: Calculate the user profile vector.
@@ -62,6 +62,23 @@ A flowchart of the content-based recommender system using user profiles and cour
 **Evaluation:**
 - Most frequently recommended courses
 - Average number of new/unseen courses recommended per user
+
+![Evaluation results of user profile-based recommender system](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_7.png)
+
+A flowchart of the content-based recommender system using course similarity is illustrated below:
+
+![Content-based recommender system using course similarity Flowchart](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_6.png)
+
+**Process:**
+1. **Course Feature Extraction**: Extract features from course descriptions, such as keywords, topics, and genres.
+2. **Course Similarity Matrix**: Compute a similarity matrix using techniques like cosine similarity to measure the similarity between courses.
+3. **Recommendation Generation**:  Recommend courses that are similar to those the user has previously interacted with, based on the similarity scores from the course similarity matrix.
+
+**Evaluation:**
+- Identify the courses that are most often recommended across users.
+- Measure the average similarity score between recommended courses and courses the user has previously interacted with.
+
+![Evaluation results of Content-based recommender system using course similarity](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_8.png)
 
 ## Collaborative-filtering Recommender System
 
@@ -106,4 +123,4 @@ This system leverages user interactions to recommend courses. Three different me
 ## Appendix
 
 For further details, data, and scripts, refer to the following link:
-[Project Materials](https://drive.google.com/drive/folders/1OKcl56MRC4ShCSxeGA7x3dQPyf84i6rm?usp=sharing)
+[Project Materials](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/tree/main)
