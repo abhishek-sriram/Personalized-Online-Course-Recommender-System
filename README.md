@@ -74,18 +74,34 @@ A flowchart of the content-based recommender system using course similarity is i
 2. **Course Similarity Matrix**: Compute a similarity matrix using techniques like cosine similarity to measure the similarity between courses.
 3. **Recommendation Generation**:  Recommend courses that are similar to those the user has previously interacted with, based on the similarity scores from the course similarity matrix.
 
-**Evaluation:**
-- Identify the courses that are most often recommended across users.
-- Measure the average similarity score between recommended courses and courses the user has previously interacted with.
+**Results**
 
 ![Evaluation results of Content-based recommender system using course similarity](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_8.png)
 
+## Clustering based recommender system
+
+A flowchart of Clustering based recommender system is illustrated below:
+
+![Clustering based recommender system flowchart](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_9.png)
+
+**Process:**
+1. **Data Preprocessing**:  Clean and preprocess the dataset, including normalization and feature extraction.
+2. **Clustering Algorithm**: Apply clustering algorithms such as K-Means or DBSCAN to group similar users or courses into clusters.
+3. **Cluster Analysis**:  Analyze the characteristics of each cluster to understand the common features and preferences within each group.
+4. **Recommendation Generation**: Recommend courses to users based on their cluster membership. Courses popular in a user's cluster are likely to be of interest.
+
+**Results**
+
+![Evaluation results of Clustering based recommender system flowchart](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_10.png)
+
 ## Collaborative-filtering Recommender System
+
+### Supervised Learning
 
 This system leverages user interactions to recommend courses. Three different methods are explored: K-Nearest Neighbors (KNN), Non-negative Matrix Factorization (NMF), and Neural Network Embedding.
 
 ### KNN-based Recommender System
-![KNN-based Flowchart](flowchart2.png)
+![KNN-based Flowchart](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_11.png)
 
 **Process:**
 1. **Train-test split**: Split the data.
@@ -95,7 +111,7 @@ This system leverages user interactions to recommend courses. Three different me
 5. **Predictions**: Make course recommendations.
 
 ### NMF-based Recommender System
-![NMF-based Flowchart](flowchart3.png)
+![NMF-based Flowchart](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_12.png)
 
 **Process:**
 1. **Matrix split**: Divide data into two dense matrices (U and I).
@@ -103,22 +119,21 @@ This system leverages user interactions to recommend courses. Three different me
 3. **Matrix product**: Calculate similarity and make predictions.
 
 ### Neural Network Embedding-based Recommender System
-![Neural Network Flowchart](flowchart4.png)
+![Neural Network Flowchart](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_13.png)
 
 **Process:**
 1. **One-hot encoding**: Encode user and course vectors.
 2. **Neural network**: Train the model using neural network embedding.
 3. **Scoring**: Predict scores and recommend courses.
 
-**Evaluation:**
-- Compare the performance of collaborative-filtering models.
-- Identify the highest performing model and key insights.
-
 ## Conclusions
 
 - **Model Performance**: User profile-based model has the highest number of recommendations, while the stacking classifier shows the best performance.
 - **Complexity**: The similarity matrix's high complexity can be managed using NMF.
 - **Recommendations**: Effective personalized recommendations can significantly improve user experience.
+
+**Results:**
+![Comparing different collaborative filtering - based recommender systems](https://github.com/abhishek-sriram/Personalized-Online-Course-Recommender-System/blob/main/Screenshots/Screenshot_14.png)
 
 ## Appendix
 
